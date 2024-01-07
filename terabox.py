@@ -13,8 +13,8 @@ if __name__ == '__main__':
     # FOLDERS "folder 1" "folder 2"
     # url = 'https://terabox.app/s/1gw0-4rjjtDd6czxCA7aqOA'
 
-    # url = input('Enter TeraBox share link: ')
-    url = $URL
+    url = input('Enter TeraBox share link: ')
+    # url = $URL
     short_url = get_short_url(url)
     pwd = ''
 
