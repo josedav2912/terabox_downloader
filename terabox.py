@@ -1,4 +1,4 @@
-import os
+# import os
 from utils.utils import *
 from helpers.helpers import *
 
@@ -14,7 +14,7 @@ if __name__ == '__main__':
     # url = 'https://terabox.app/s/1gw0-4rjjtDd6czxCA7aqOA'
 
     # url = input('Enter TeraBox share link: ')
-    url = os.environ["URL"]
+    url = $URL
     short_url = get_short_url(url)
     pwd = ''
 
